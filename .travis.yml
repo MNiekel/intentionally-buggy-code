@@ -3,8 +3,5 @@ node_js:
  - "node"
 env:
   - TEST_DIR=intentionally-buggy-library
-script: 
-  cd $TEST_DIR
-  npm install
-  npm test
-  npm run test:jshint
+script: cd $TEST_DIR && npm install && npm test
+script: cd $TEST_DIR && npm install && npm run test:jshint
