@@ -1,12 +1,8 @@
 function IntentionallyBuggyCode (val) {
+  
   this.val = val;
+
 }
-
-IntentionallyBuggyCode.prototype.reverse = function (str) {
-    return str.split('').reverse().join();
-}
-
-
 
 if (typeof window === 'undefined') {
   //if it's not being run in browser
@@ -17,4 +13,24 @@ if (typeof window === 'undefined') {
 } else {
   //add it to the window object
   window.IBL = new IntentionallyBuggyCode();
+}
+
+IntentionallyBuggyCode.prototype.reverse = function (str) {
+  
+    return str.split('').reverse().join();
+
+}
+
+IntentionallyBuggyCode.prototype.factorial = function (num) {
+  
+  if ( num === 0 ) {
+    
+    return 1;
+  
+  } else {
+    
+    return num + this.factorial( num - 1 );
+  
+  }
+  
 }
