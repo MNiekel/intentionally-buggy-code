@@ -1,6 +1,6 @@
 {
   "name": "intentionally-buggy-library",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Practice contributing to open source by fixing bugs and making bugs for others to fix!",
   "bugs": {
     "url": "https://github.com/IntentionallyBuggyCode/intentionally-buggy-code/issues"
