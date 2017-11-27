@@ -15,3 +15,13 @@ You can then open your console and run IBL methods i.e.:
 For use in Node.js:
 
 <code>const IBL = require('intentionally-buggy-library')</code>
+
+# running tests:
+
+For live testing:
+
+<code>npm run test:dev</code>
+
+Otherwise:
+
+<code>npm test</code>
