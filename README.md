@@ -1,5 +1,7 @@
 # Practice contributing to open source by fixing bugs and making bugs for others to fix!
 
+[![Build Status](https://travis-ci.org/IntentionallyBuggyCode/intentionally-buggy-code.svg?branch=master)](https://travis-ci.org/IntentionallyBuggyCode/intentionally-buggy-code)
+
 Step 1 - fork this project
 
 Step 2 - clone your fork
