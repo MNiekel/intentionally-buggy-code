@@ -5,8 +5,8 @@ const IntentionallyBuggyCode = function(val) {
 }
 
 IntentionallyBuggyCode.prototype.reverse = function(val) {
-  let reversed = val.split('').reverse().join();
-  return reversed
+  let reversed = val.split('').reverse().join('');
+  return reversed;
 }
 
 const IBC = new IntentionallyBuggyCode();
